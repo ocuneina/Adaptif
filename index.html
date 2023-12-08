@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dates Calculation</title>
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Difference between two dates</h1>
+    <div>
+      <p>Enter the dates</p>
+      <form>
+        <label for="date1"
+          >Enter the first date:
+          <input
+            id="date1"
+            name="date1"
+            type="datetime-local"
+            value="2023-11-21T14:00:00"
+        /></label>
+        <label for="date2"
+          >Enter the second date:
+          <input
+            id="date2"
+            name="date2"
+            type="datetime-local"
+            value="2023-11-22T14:00:00"
+        /></label>
+      </form>
+      <button type="button" onClick="diffCalculate()">Calculate</button>
+
+      <div id="diff"></div>
+      <div id="calc"></div>
+    </div>
+  </body>
+</html>
