@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Dates Calculation</title>
-    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
@@ -11,22 +11,26 @@
     <div>
       <p>Enter the dates</p>
       <form>
-        <label for="date1"
-          >Enter the first date:
-          <input
-            id="date1"
-            name="date1"
-            type="datetime-local"
-            value="2023-11-21T14:00:00"
-        /></label>
-        <label for="date2"
-          >Enter the second date:
-          <input
-            id="date2"
-            name="date2"
-            type="datetime-local"
-            value="2023-11-22T14:00:00"
-        /></label>
+        <div>
+          <label for="date1"
+            >Enter the first date:
+            <input
+              id="date1"
+              name="date1"
+              type="datetime-local"
+              value="2023-11-21T14:00:00.000"
+          /></label>
+        </div>
+        <div>
+          <label for="date2"
+            >Enter the second date:
+            <input
+              id="date2"
+              name="date2"
+              type="datetime-local"
+              value="2023-11-22T14:00:00.000"
+          /></label>
+        </div>
       </form>
       <button type="button" onClick="diffCalculate()">Calculate</button>
 
